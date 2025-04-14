@@ -1,0 +1,56 @@
+:root {
+    --yellow: #F4D04E;
+    --Gray-950: #111111;
+    --Gray-500: #6B6B6B;
+    --White: #FFFFFF;
+    --main-font: "Figtree", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.text-preset-1 {
+    font-family: var(--main-font);
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+.text-preset-2 {
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+
+.text-preset-3 {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-weight: normal;
+}
+
+.text-preset-3-bold {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-weight: bolder;
+}
